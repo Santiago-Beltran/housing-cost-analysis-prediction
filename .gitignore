@@ -1,0 +1,39 @@
+# Python general
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Scrapy-specific
+.scrapy/             # Scrapy cache and state
+*.log                # Logs
+*.json               # Output JSONs
+*.jsonl              # Output JSON lines
+*.jl                 # Alternate JSON lines extension
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Ignore all JSON and log files
+# Do not distribute the data to others that may have malicious purposes.
+*.json
+*.jsonl
+*.log
+
+# Do not share the Scraper
+# I intend this as a way of avoiding others of misusing it, not being respectful to the website.
+scraper/
