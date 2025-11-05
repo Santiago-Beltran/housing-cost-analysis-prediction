@@ -37,3 +37,7 @@ Thumbs.db
 # Do not share the Scraper
 # I intend this as a way of avoiding others of misusing it, not being respectful to the website.
 scraper/
+
+
+# Do not add .ipynb_checkpoints
+.ipynb_checkpoints
