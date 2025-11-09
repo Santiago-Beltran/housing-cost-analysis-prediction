@@ -8,4 +8,4 @@ name = "pypi"
 [dev-packages]
 
 [requires]
-python_version = "3.14"
+python_version = "3.13" # Required for SHAP module
